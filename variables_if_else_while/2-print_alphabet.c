@@ -1,14 +1,16 @@
-#include <stdio.h>;
-**
+#include <stdio.h>
+/**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-char alphabet = 'a';
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-putchar(alphabet);
+char a;
+for (a = 'a'; a <= 'z'; a++)
+{
+putchar(a);
+}
+putchar('\n');
 return (0);
 }
-
