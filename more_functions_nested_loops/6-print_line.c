@@ -1,9 +1,4 @@
-#include <stdio.h>
-
-void _putchar(char c)
-{
-putchar(c);
-}
+#include "main.h"
 
 /**
  * print_line - Draws a straight line in the terminal.
@@ -11,6 +6,7 @@ putchar(c);
  *
  * Description: If n is 0 or less, only a newline is printed.
  */
+
 void print_line(int n)
 {
 int i;
